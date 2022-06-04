@@ -10,7 +10,7 @@
 <body>
     <h1>JSP sample current date</h1>
     <p>
-        Today's date: <%= (new java.util.Date()).toLocaleString()%>
+        Hey, Today's date: <%= (new java.util.Date()).toLocaleString()%>
     </p>
 </body>
 </html>
