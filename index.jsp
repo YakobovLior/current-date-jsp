@@ -8,8 +8,8 @@
 </head>
 <body>
     <h1>JSP sample current date</h1>
-    <p>
-        Hello guys!!! Today's date: <%= (new java.util.Date()).toLocaleString()%>
+    <p style="color: red">
+        Hello! Today's date: <%= (new java.util.Date()).toLocaleString()%>
     </p>
 </body>
 </html>
